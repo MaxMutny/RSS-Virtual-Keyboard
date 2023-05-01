@@ -3,43 +3,17 @@
     margin-right: auto;
     max-width: 1100px;
     
-
 }
-
 
 .textarea {
     
     display: block;
     width: 100%;
     height: 200px;
-    
-    
     font-size: 18px;
     color: #444444;
 }
 
-.el1{
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-}
-.el2{
-    width: 70px;
-    height: 70px;
-    background-color: chartreuse;
-}
-.el3{
-    width: 40px;
-    height: 40px;
-    background-color: crimson;
-}
-
-.button-a{
-    background-color: darkred;
-    width: 50px;
-    height: 50px;
-
-}
 
 .button {
     padding-left: 5px;
@@ -57,7 +31,9 @@
 }
 .button--active{
     background-color: aqua;
+
 }
+
 .contentainer-key{
     background-color: rgb(218, 218, 218);
     padding-top: 10px;
