@@ -6,9 +6,14 @@ let body = document.querySelector("body")
 let textarea = document.createElement("textarea")
 textarea.setAttribute("class", "textarea")
 
+let h1 = document.createElement("h1")
+h1.classList = "h1"
+h1.innerText = "Virtual keyboard"
+
+
 
 body.prepend(container)
-
+container.prepend(h1)
 container.append(textarea)
 
 
